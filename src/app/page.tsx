@@ -108,7 +108,7 @@ export default function LoginPage() {
           </Form>
         </CardContent>
         <CardFooter className="justify-center text-xs text-muted-foreground">
-          <p>Hint: Use Username 'Admin' and Password 'admin'</p>
+          <p> Please mail us on rutpatel@apnastocks.in </p>
         </CardFooter>
       </Card>
     </main>
