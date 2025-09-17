@@ -44,7 +44,7 @@ export default function LoginPage() {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    if (values.username === "Admin" && values.password === "admin") {
+    if (values.username === "Admin123" && values.password === "admin123") {
       setLoginError(null);
       // In a real app, you'd use a more secure session management method.
       // For this demo, sessionStorage is sufficient.
@@ -62,7 +62,7 @@ export default function LoginPage() {
           <div className="mx-auto mb-4">
             <Bot size={48} className="text-primary" />
           </div>
-          <CardTitle className="text-2xl">AdminBot</CardTitle>
+          <CardTitle className="text-2xl">Apnastocks.in</CardTitle>
           <CardDescription>Please log in to continue</CardDescription>
         </CardHeader>
         <CardContent>
@@ -75,7 +75,7 @@ export default function LoginPage() {
                   <FormItem>
                     <FormLabel>Username</FormLabel>
                     <FormControl>
-                      <Input placeholder="Admin" {...field} />
+                      <Input placeholder="username" {...field} />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -88,7 +88,7 @@ export default function LoginPage() {
                   <FormItem>
                     <FormLabel>Password</FormLabel>
                     <FormControl>
-                      <Input type="password" placeholder="admin" {...field} />
+                      <Input type="password" placeholder="password" {...field} />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
