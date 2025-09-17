@@ -44,7 +44,7 @@ export default function LoginPage() {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    if (values.username === "Admin123" && values.password === "admin123") {
+    if (values.username === "Admin123" && values.password === "18@Devbhumi") {
       setLoginError(null);
       // In a real app, you'd use a more secure session management method.
       // For this demo, sessionStorage is sufficient.
