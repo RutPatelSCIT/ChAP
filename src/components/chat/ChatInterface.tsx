@@ -39,7 +39,7 @@ export default function ChatInterface() {
       setMessages([{
         id: Date.now(),
         sender: 'bot',
-        text: "Hello! I'm AdminBot. Ask me anything."
+        text: "Hello! Ask me anything."
       }]);
       setIsLoading(true);
       try {
