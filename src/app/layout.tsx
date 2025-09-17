@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'Apnastocks.in',
+  title: 'Adminbot',
   description: 'An AI Chatbot for investors',
 };
 
