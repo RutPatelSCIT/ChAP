@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'AdminBot',
-  description: 'An AI Chatbot for Admins',
+  title: 'Apnastocks.in',
+  description: 'An AI Chatbot for investors',
 };
 
 export default function RootLayout({
